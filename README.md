@@ -71,7 +71,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 1. **Fork the Repository**: Click on the 'Fork' button on the top right corner of the repository page to create a copy of the repository on your GitHub account.
 2. **Clone the Forked Repository**: Clone the repository to your local machine using the command:
     ```bash
-    git clone https://github.com/himanshu-taviyad/your-repository-name.git
+    git clone https://github.com/himanshu-tyd/Portfolio.git
     ```
 3. **Create a New Branch**: Create a new branch for your feature or bug fix:
     ```bash
