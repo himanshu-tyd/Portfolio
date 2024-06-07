@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu | Portfolio</title>
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
+      defer
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    >
+    </script>
+
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="head-container">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="" class="img" />
+          <span class="logo-name">Himanshu | software Devloper</span>
+        </div>
+        <nav class="nav">
+          <ul class="links">
+            <a class="link" href="#about">about</a>
+            <a class="link" href="#work">work</a>
+            <a class="link" href="#contact">contact</a>
+          </ul>
+          <div class="menu__box">
+            <i class="ri-menu-line menu__icon"></i>
+            <i class="ri-close-line menu__close"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero sectiction -->
+    <div class="hero-section">
+      <main class="main">
+        <div class="title-container">
+          <div class="line-box">
+            <span class="circle"></span>
+            <span class="line"></span>
+          </div>
+          <div class="name-box">
+            <h1 class="name-text">
+              Hi, I'm <span class="name">Himanshu</span>
+            </h1>
+            <p class="subtext">I buid things for web</p>
+          </div>
+        </div>
+
+        <div class="img-container">
+          <div class="hero-text">
+            <h2 class="text-code">&lt;Coder&gt;</h2>
+            <p class="tag-line">
+              "Programming isn't about what you know; it's about what you can
+              figure out."
+            </p>
+          </div>
+          <div class="box">
+            <img class="my-img" src="./assets/me-with-bg.png" alt="img" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- introduction section -->
+    <section class="intro" id="about">
+      <div class="title-box">
+        <span class="title__text intro__heaing">introduction</span>
+        <h2 class="main__text intro__overview">overview.</h2>
+        <p class="desc__text intro__desc">
+          I'm a motivated and quick-learning fresher with a strong foundation in
+          web development technologies, including JavaScript, HTML, CSS, and
+          proficiency in frameworks like React, Node.js, and Express. I also
+          have experience with MongoDB for database management. I'm eager to
+          collaborate and bring innovative, user-friendly solutions to life.
+          Let's work together to turn your ideas into reality!
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="card__box">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/cardImages/card1.png"
+              alt="card"
+            />
+            <h4 class="roles">web developer</h4>
+          </div>
+        </div>
+        <div class="card__box">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/cardImages/card2.png"
+              alt="card"
+            />
+            <h4 class="roles">frontend developer</h4>
+          </div>
+        </div>
+        <div class="card__box">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/cardImages/card3.png"
+              alt="card"
+            />
+            <h4 class="roles">backend developer</h4>
+          </div>
+        </div>
+        <div class="card__box">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/cardImages/card4.png"
+              alt="card"
+            />
+            <h4 class="roles">content creator</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work experience -->
+
+    <section class="work__container" id="work">
+      <div class="work__text_container">
+        <span class="title__text work-title">what i have done so far</span>
+        <h1 class="main__text">work experience</h1>
+      </div>
+
+      <div class="card__list__container">
+        <div class="work__card card-1">
+          <div class="work__card__box work__card__box_1">
+            <h4 class="work__role">content creator</h4>
+            <span class="company">Youtube</span>
+            <ul class="desc"></ul>
+          </div>
+        </div>
+
+        <div class="work__line_container">
+          <span class="work__line"></span>
+          <div class="icon__box">
+            <span class="icons icon-1">
+              <i class="ri-youtube-fill icon"></i>
+            </span>
+            <span class="icons">
+              <i class="icon icon-2">
+                <img
+                  class="shopify__icon"
+                  src="./assets/shopify.svg"
+                  alt="shopfiy"
+                />
+              </i>
+            </span>
+          </div>
+        </div>
+
+        <div class="work__card card-2">
+          <div class="work__card__box">
+            <h4 class="work__role">dropshipping</h4>
+            <span class="company">Shopify</span>
+            <ul class="desc desc-2"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- technologies -->
+
+    <section>
+      <div class="tech__container">
+        <div class="tech__text_container">
+          <span class="title__text tech-title">what i know</span>
+          <h1 class="main__text tech__subtext">technologies.</h1>
+        </div>
+        <div class="tech__stack_box">
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/html.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/css.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/javascript.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/react.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/nodejs.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/mongodb.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/taillwindCss.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/sass.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/figma.png"
+            alt="html"
+          />
+          <img
+            class="stack__icon"
+            src="/assets/stackIcons/git.png"
+            alt="html"
+          />
+        </div>
+        <div class="stack__names">
+          <p class="stack">
+            HTML5, CSS, JavaScript, React.js, Node.js, Express.js MongoDB,
+            TailwindCss, Sass, Figma, Git
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section>
+      <div class="tech__container">
+        <div class="project__text_container">
+          <span class="title__text project">my work</span>
+          <h1 class="main__text project-title">projects.</h1>
+          <p class="desc__text project__desc">
+            The following projects showcase my skills and experience through
+            real-world examples of my work. Each project is briefly described
+            and includes links to code repositories and live demos. These
+            projects reflect my ability to solve complex problems, work with
+            various technologies, and manage projects effectively.
+          </p>
+        </div>
+
+        <div class="project__card_container">
+          <div class="project__card__box">
+            <div class="project__img__box">
+              <img src="./assets/p1.png" alt="" class="project__img" />
+              <a
+                href="https://github.com/himanshu-tyd/travel-booking-app"
+                target="_blank"
+                class="github__icon__box"
+              >
+                <i class="ri-github-fill github__icon"></i>
+              </a>
+            </div>
+
+            <div class="project__details__box">
+              <h2 class="project__heading">LifeCare.</h2>
+              <p class="desc__text project__desc">
+                A streamlined system for booking doctor appointments, allowing
+                patients to easily schedule and view available slots while
+                enabling doctors to efficiently manage their schedules and track
+                appointments.
+              </p>
+            </div>
+            <div class="project__footer">
+              <div class="hastags">
+                <p class="hash">#react</p>
+                <p class="hash">#express</p>
+                <p class="hash">#mongodb</p>
+              </div>
+
+              <div class="live__btn">
+                <a
+                  href="https://lifecare07.netlify.app/"
+                  target="_blank"
+                  class="btn"
+                  >live</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project__card__box">
+            <div class="project__img__box">
+              <img src="./assets/p3.png" alt="" class="project__img" />
+              <a
+                href="https://github.com/himanshu-tyd/Artist_Finder"
+                target="_blank"
+                class="github__icon__box"
+              >
+                <i class="ri-github-fill github__icon"></i>
+              </a>
+            </div>
+
+            <div class="project__details__box">
+              <h2 class="project__heading">Artist Finder.</h2>
+              <p class="desc__text project__desc">
+                A web app for booking event tickets, featuring a user-friendly
+                home page designed with HTML and CSS.
+              </p>
+            </div>
+            <div class="project__footer">
+              <div class="hastags">
+                <p class="hash">#html</p>
+                <p class="hash">#css</p>
+                <p class="hash">#javascript</p>
+              </div>
+
+              <div class="live__btn">
+                <a
+                  href="https://himanshu-tyd.github.io/Artist_Finder/"
+                  target="_blank"
+                  class="btn"
+                  >live</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us  -->
+
+    <div class="contact__us_container" id="contact">
+      <div class="contact__box">
+        <form class="contact__card contact__form">
+          <div class="contact__title_box">
+            <span class="title__text">get in touch</span>
+            <h2 class="main__text">contact.</h2>
+          </div>
+
+          <div class="field__box">
+            <label class="label">your name</label>
+            <input
+              type="text"
+              class="input"
+              name="name"
+              placeholder="what's your good name?"
+              required
+            />
+          </div>
+
+          <div class="field__box">
+            <label class="label">your gmail</label>
+            <input
+              type="email"
+              class="input"
+              name="email"
+              placeholder="Enter Gmail address"
+              required
+            />
+          </div>
+
+          <div class="field__box">
+            <label class="label">your message</label>
+            <textarea
+              rows="5"
+              name="message"
+              class="input"
+              placeholder="What do you want to say?"
+              required
+            ></textarea>
+          </div>
+
+          <div class="contact__btn_box">
+            <button class="contact__btn" type="submit">send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
