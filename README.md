@@ -48,6 +48,11 @@ Welcome to my personal portfolio! This is where you can learn more about me, my 
   - Technologies: React, Express, MongoDB
   - [GitHub Repository](https://github.com/himanshu-tyd/travel-booking-app)
   - [Live Demo](https://lifecare07.netlify.app/)
+ 
+- **Nike Clone**: Nike Clone A web application.
+  - Technologies: React, tailwindcss, JavaScript
+  - [GitHub Repository](https://github.com/himanshu-tyd/Nike_Clone)
+  - [Live Demo](https://nike-clone07.netlify.app/)
   
 - **Artist Finder**: A web app for booking event tickets.
   - Technologies: HTML, CSS, JavaScript
