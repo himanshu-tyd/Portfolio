@@ -205,47 +205,22 @@ section {
   z-index: -1;
 }
 
-/* for animation */
 
-@keyframes typing {
-  0% {
-    width: 0;
-  
-  }
-  100% {
-   
-    width: 100%;
-  }
-}
+
 
 .name-box {
   margin-left: 40px;
   width: 100%;
 }
-
 .name {
-  display: inline-block;
   color: var(--heading-color);
-  overflow: hidden;
-  border-right: .15em solid #fff;
-  white-space: nowrap;
-  margin: 0 auto;
-  animation: typing 3s steps(20, end) infinite;
 }
 .name-text {
-  width: 100%;
-  display: flex;
-  flex:2;
-  flex-wrap: nowrap;
-  gap: 20px;
   padding-top: 30px;
+  width: auto;
   font-weight: 700;
   font-size: 60px;
-}
 
-.name-ht{
-  display:inline-block;
-  width: fit-content;
 }
 
 .subtext {
@@ -475,6 +450,7 @@ section {
 .icon-2 {
   margin-top: 280px;
   position: relative;
+  background-color: #EFFFD1 !important;
 }
 
 .shopify__icon {
@@ -584,6 +560,7 @@ section {
   gap: 50px;
 }
 
+
 .project__card__box {
   width: 400px;
   height: auto;
@@ -594,6 +571,7 @@ section {
   padding: 20px 20px;
 }
 
+
 .project__img__box {
   width: 100%;
   position: relative;
@@ -601,6 +579,7 @@ section {
 
 .project__img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .github__icon__box {
@@ -640,7 +619,7 @@ section {
 }
 
 .project__desc {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -651,6 +630,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
+
 }
 .hastags {
   display: flex;
@@ -791,25 +772,38 @@ section {
 }
 
 @media (max-width: 1250px) {
-  .card__list__container {
+
+
+  .card__list__container{
     flex-flow: row-reverse wrap;
-    row-gap: 40px;
+    row-gap: 40px ;
+    
   }
-  .work__line_container {
+  .work__line_container{
     height: 100%;
   }
 
-  .work__line::before {
+  .work__line::before{
     height: 900px;
   }
 
-  .card-1 {
+  .card-1{
     width: 80%;
+
   }
-  .card-2 {
+  .card-2{
     width: 80%;
     margin-top: 0;
   }
+
+
+
+
+
+
+
+
+
 
   /* .card__list__container {
     position: relative;
@@ -839,24 +833,34 @@ section {
     width: 100%;
   } */
 
-  .project__card_container {
+  .project__card_container{
     gap: 30px;
   }
 
-  .project__card__box {
+  .project__card__box{
     width: 370px;
     height: 580px;
+    
+    
   }
 
-  .project__desc {
+  .project__desc{
     font-size: 18px;
   }
+
 }
 
-@media (max-width: 1060px) {
+
+@media (max-width:1060px){
+
+  
+
 }
 
 @media (max-width: 1000px) {
+
+  
+
   .img-container {
     width: 100%;
     margin: 0 0;
@@ -864,19 +868,20 @@ section {
     flex-flow: column-reverse;
     gap: 50px;
   }
+
 }
 
 @media (max-width: 800px) {
-  .work__line_container {
+
+  .work__line_container{
     padding: 0 30px;
   }
 
-  .card-1,
-  .card-2 {
+  .card-1,.card-2{
     width: 80%;
   }
-
-  .project__card__box {
+ 
+  .project__card__box{
     height: 520px;
   }
 
@@ -913,7 +918,7 @@ section {
     display: none;
   }
 
-  .hide__nav {
+  .hide__nav{
     display: none;
   }
 
@@ -953,8 +958,8 @@ section {
   }
 }
 
-@media (max-width: 770px) {
-  .work__container {
+@media (max-width:770px){
+  .work__container{
     padding: 0 7%;
   }
 }
@@ -980,35 +985,38 @@ section {
   }
 }
 
-@media (max-width: 580px) {
-  .name-box {
-    width: 400px;
-  }
 
-  .img {
+
+@media (max-width: 580px) {
+
+    .name-box{
+      width: 400px;
+    }
+
+  .img{
     width: 24px;
   }
-  .name-text,
-  .subtext {
+  .name-text, .subtext{
     width: 340px;
   }
-  .name-text {
+  .name-text{
     font-size: 45px;
+   
   }
 
-  .subtext {
+  .subtext{
     font-size: 24px;
   }
 
-  .my-img {
+  .my-img{
     height: 380px;
   }
 
-  .text-code {
+  .text-code{
     font-size: 48px;
   }
 
-  .tag-line {
+  .tag-line{
     letter-spacing: 0;
     padding: 0 6%;
   }
@@ -1022,35 +1030,37 @@ section {
   }
 }
 
-@media (max-width: 525px) {
-  .input {
+@media (max-width:525px){
+
+  .input{
     width: 350px;
   }
 
-  .contact__box {
+  .contact__box{
     padding: 0 4%;
   }
 
-  .head-container {
+  .head-container{
     padding: 0 5%;
   }
 
-  .title-container {
+  .title-container{
     margin: 0 30px;
   }
-  .name-box {
+  .name-box{
     width: 300px;
   }
 
-  .logo-name {
+  .logo-name{
     font-size: 14px;
   }
 
-  .name-text {
+  .name-text{
     font-size: 38px;
   }
-
-  .subtext {
+  
+  .subtext{
     font-size: 18px;
   }
+
 }
